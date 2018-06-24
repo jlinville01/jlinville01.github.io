@@ -2,44 +2,20 @@
 
 <h2>Experience</h2>
 
-<h3>Software QA Engineer</h3>
-<p>Awesomeness</p>
-<p>May 2017 - Present</p>
-<p>Leading QA test strategy for all six internal Awesomeness applications.<br/>
-	Developed and streamlined QA process from scratch.<br/>
-	Implemented automated testing across web-based applications.<br/>
-	Created status app to monitor internal app health.<br/>
-</p>
-
-<h3>QA Automation Engineer</h3>
-<p>ADP</p>
-<p>August 2015 - May 2017</p>
-<p>Developing and implementing desktop and mobile app automation.<br/>
-	Testing enterprise SaaS product across all major browsers, OS's and devices for errors and stability.<br/>
-	Executing performance testing to benchmark load tests and identify stress test limits.<br/>
-	Responsible for developing QA strategy per sprint (includes test plans and heavy documentation).<br/>
-	Providing status reports to stakeholders and internal teams.<br/>
-	Training and support to interns to assist in learning best practices.<br/>
-</p>
-
-<h3>Web Content Consultant</h3>
-<p>Bartels' Harley-Davidson</p>
-<p>March 2015 - March 2016</p>
-
-<h3>QA Tester Intern</h3>
-<p>ADP</p>
-<p>July 2015 - August 2016</p>
+<% @jobs.each do |job| %>
+	<h3><%= job.job_title %></h3>
+	<p><%= job.company_name %></p>
+	<p><%= job.start_date %> - <%= job.end_date %></p>
+	<p><%= job.job_description %></p>
+<% end %>
 
 <h2>Education</h2>
 
-<h3>Santa Monica College</h3>
-<p>Associate of Science (A.S.)</p>
-<p>Computer Programming</p>
-<p>2015 - 2016</p>
-
-<h3>State University of New York Empire State College</h3>
-<p>Bachelor of Arts (B.A.)</p>
-<p>Music Theory and Composition</p>
-<p>2011 - 2013</p>
+<% @degrees.each do |degree| %>
+	<h3><%= degree.school_name %></h3>
+	<p><%= degree.degree %></p>
+	<p><%= degree.major %></p>
+	<p><%= degree.start_date %> - <%= degree.end_date %></p>
+<% end %>
 
 <p><%= link_to "Back", root_path, id: 'back_link' %></p>

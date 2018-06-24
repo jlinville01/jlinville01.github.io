@@ -4,6 +4,9 @@ class DemoController < ApplicationController
   end
 
   def resume
+    @jobs = Job.all
+    @degrees = Degree.all
+
   	render('resume')
   end
 

@@ -14,6 +14,7 @@ gem 'uglifier'
 group :development, :test do
   gem 'awesome_print'
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'byebug', platforms: :mri
   gem 'capybara'
   gem 'chromedriver-helper'
