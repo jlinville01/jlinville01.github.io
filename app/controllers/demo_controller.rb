@@ -3,10 +3,6 @@ class DemoController < ApplicationController
   	render('index')
   end
 
-  def other_index
-  	redirect_to(:action => 'index')
-  end
-
   def resume
   	render('resume')
   end
