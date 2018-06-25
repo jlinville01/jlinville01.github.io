@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.4.1'
+# ruby '2.4.1'
 
+gem 'bootstrap-sass'
 gem 'coffee-rails'
 gem 'jbuilder'
 gem 'pg'
@@ -28,9 +29,6 @@ end
 
 group :development do
   gem 'listen'
-  # gem 'spring'
-  # gem 'spring-watcher-listen'
-  # gem 'web-console'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

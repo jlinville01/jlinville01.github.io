@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-	root 'demo#index'
+	root 'about#index'
 
-	get 'demo/index'
-	get 'demo/resume', as: :resume
-	get 'demo/contact', as: :contact
-	get 'demo/about', as: :about
+	get 'about/index', as: :about
+	get 'education/index', as: :education
+	get 'experience/index', as: :experience
+	get 'interests/index', as: :interests
 end
