@@ -4,7 +4,7 @@ feature 'About Page' do
 	end
 
 	scenario 'has correct title' do
-		expect(app.about_page.title).to have_text('About Page')
+		expect(app.about_page.title).to have_text('About Me')
 	end
 
 	scenario 'has back link' do
