@@ -4,25 +4,26 @@ class Application
   end
 
   # Pages
-  def home_page
-    @pages[:home_page] ||= HomePage.new
-  end
-
-  def resume_page
-    @pages[:resume_page] ||= ResumePage.new
-  end
 
   def about_page
     @pages[:about_page] ||= AboutPage.new
   end
 
-  def contact_page
-    @pages[:contact_page] ||= ContactPage.new
+  def experience_page
+    @pages[:experience_page] ||= ExperiencePage.new
   end
 
-  def login_page
-    @pages[:login_page] ||= LoginPage.new
+  def education_page
+    @pages[:education_page] ||= EducationPage.new
+  end
+
+  def interests_page
+    @pages[:interests_page] ||= InterestsPage.new
   end
 
   # Sections
+
+  def nav_menu
+    @pages[:nav_menu] ||= NavMenu.new
+  end
 end
