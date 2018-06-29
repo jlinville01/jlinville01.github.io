@@ -21,8 +21,8 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true                # Transactional fixtures make Selenium an unhappy camper
   config.infer_spec_type_from_file_location!              # The different available types are documented in the features, such as in https://relishapp.com/rspec/rspec-rails/docs
   config.filter_rails_from_backtrace!                     # Filter lines from Rails gems in backtraces.
-  # config.filter_run_excluding :integration => true        # Filter integration tests when running rspec
-  config.shared_context_metadata_behavior = :apply_to_host_groups
+  config.filter_run_excluding :integration => true        # Filter integration tests when running rspec
+  # config.shared_context_metadata_behavior = :apply_to_host_groups
   config.failure_color = :magenta
   config.tty = true
   config.color = true

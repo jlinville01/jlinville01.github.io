@@ -5,7 +5,7 @@ feature 'Education Page' do
 
   it_behaves_like 'nav_menu'
 
-  scenario 'has correct title' do
-    expect(app.about_page.title).to have_text('Education')
+  scenario 'has correct title', :integration do
+    expect(app.education_page.page_title).to have_text('Education'.upcase)
   end
 end

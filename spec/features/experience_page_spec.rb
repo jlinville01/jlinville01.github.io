@@ -5,7 +5,7 @@ feature 'Experience Page' do
 
   it_behaves_like 'nav_menu'
 
-  scenario 'has correct title' do
-    expect(app.about_page.title).to have_text('Experience')
+  scenario 'has correct title', :integration do
+    expect(app.experience_page.title).to have_text('Experience'.upcase)
   end
 end

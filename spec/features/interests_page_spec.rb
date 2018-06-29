@@ -5,7 +5,7 @@ feature 'Interests Page' do
 
   it_behaves_like 'nav_menu'
 
-  scenario 'has correct title' do
-    expect(app.about_page.title).to have_text('Interests')
+  scenario 'has correct title', :integration do
+    expect(app.interests_page.title).to have_text('Interests'.upcase)
   end
 end

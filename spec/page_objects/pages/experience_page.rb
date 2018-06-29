@@ -1,3 +1,3 @@
 class ExperiencePage < SitePrism::Page
-  element :title, "h2"
+  element :page_title, "h2"
 end
