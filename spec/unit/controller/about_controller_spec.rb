@@ -1,4 +1,4 @@
-describe About do
+RSpec.describe AboutController, :type => :controller do
 	it "renders the index template" do
 		get :index
 		expect(response).to render_template("index")
