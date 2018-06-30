@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 # ruby '2.4.1'
 
-gem 'bootstrap-sass'
 gem 'coffee-rails'
 gem 'jbuilder'
 gem 'pg'
