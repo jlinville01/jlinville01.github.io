@@ -1,15 +1,15 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: myapp_development
+  database: resume_development
   pool: 5
-  username: myapp
+  username: resume
   password: password1
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: myapp_test
+  database: resume_test
   pool: 5
-  username: myapp
+  username: resume
   password: password1

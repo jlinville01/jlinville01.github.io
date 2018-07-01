@@ -3,7 +3,6 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rspec/rails'
 require 'faker'
 require 'site_prism'
-#require 'factory_bot_rails'
 
 chrome_switches = %w[
     --disable-default-apps

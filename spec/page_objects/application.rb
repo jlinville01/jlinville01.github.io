@@ -17,6 +17,14 @@ class Application
     @pages[:education_page] ||= EducationPage.new
   end
 
+  def skills_page
+    @pages[:skills_page] ||= SkillsPage.new
+  end
+
+  def awards_page
+    @pages[:awards_page] ||= AwardsPage.new
+  end
+
   def interests_page
     @pages[:interests_page] ||= InterestsPage.new
   end

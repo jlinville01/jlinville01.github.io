@@ -14,7 +14,6 @@ ActiveRecord::Migration.maintain_test_schema! # Checks for pending migration and
 
 RSpec.configure do |config|
   config.include Capybara::DSL
-  # config.include FactoryBot::Syntax::Methods
   config.include ApplicationHelper, :type => :feature
 
   config.fixture_path = "#{::Rails.root}/spec/fixtures"   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
