@@ -1,6 +1,6 @@
 # Resume
 
-Application that doubles as a digital resume as well as portfolio item including unit and integrastion tests.
+Application that doubles as a digital resume as well as portfolio item including unit and integration tests.
 
 # Setting up Locally
 
