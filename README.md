@@ -8,7 +8,7 @@ Application that doubles as a digital resume as well as portfolio item including
 2. `cd /resume`.
 3. Open another tab and run `bundle`.
 4. run `rake db:create` `rake db:migrate` to create and migrate your local database.
-5. run `rake db:seed` to create the user roles and privileges.
+5. run `rake db:seed` to create the jobs and degrees.
 6. navigate to `localhost:3000` to visit and view site.
 
 **To run Unit Tests:**
