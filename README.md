@@ -16,3 +16,6 @@ rake spec OR rspec
 
 **To run Integration Tests:**
 rspec --tag integration spec/
+
+:shipit:
+![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
