@@ -1,4 +1,4 @@
-# README
+# Resume
 
 **To run Unit Tests:**
 rake spec OR rspec
