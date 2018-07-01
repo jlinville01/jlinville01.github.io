@@ -5,6 +5,10 @@ feature 'Interests Page' do
 
   it_behaves_like 'nav_menu'
 
+  scenario 'has correct path', :integration do
+    expect(page).to have_current_path('/interests')
+  end
+
   scenario 'has correct title', :integration do
     expect(app.interests_page.title).to have_text('Interests'.upcase)
   end
