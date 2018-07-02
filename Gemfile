@@ -16,14 +16,14 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'byebug', platforms: :mri
-  gem 'capybara'
+  gem 'capybara', '~> 2.12'
   gem 'chromedriver-helper'
   gem 'dotenv-rails'
   gem 'faker'
   gem 'rspec-rails'
   gem 'rspec-wait'
   gem 'selenium-webdriver'
-  gem 'site_prism'
+  gem 'site_prism', '~> 2.14'
 end
 
 group :development do
