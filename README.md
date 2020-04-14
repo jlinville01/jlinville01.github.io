@@ -19,4 +19,4 @@ rake spec OR rspec
 **To run Integration Tests:**
 rspec --tag integration spec/
 
-![Alt Text](https://media.giphy.com/media/5DQdk5oZzNgGc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/6oQAkYOPdhu8M/giphy.gif)
